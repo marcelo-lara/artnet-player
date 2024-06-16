@@ -1,0 +1,15 @@
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore Python common files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg

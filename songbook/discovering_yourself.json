@@ -1,0 +1,3143 @@
+[
+    {
+        "curr_beat_time": 0.02,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 0.65,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 1.3,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 1.94,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 2.58,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 3.23,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 3.88,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 4.52,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 5.17,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 5.81,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#add9",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#add9",
+        "chord_simple_pop": "F#add9"
+    },
+    {
+        "curr_beat_time": 6.46,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#add9",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#add9",
+        "chord_simple_pop": "F#add9"
+    },
+    {
+        "curr_beat_time": 7.1,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#add9",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#add9",
+        "chord_simple_pop": "F#add9"
+    },
+    {
+        "curr_beat_time": 7.74,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-7",
+        "chord_simple_jazz": "D#-7",
+        "chord_complex_pop": "D#m7",
+        "chord_simple_pop": "D#m7"
+    },
+    {
+        "curr_beat_time": 8.39,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-7",
+        "chord_simple_jazz": "D#-7",
+        "chord_complex_pop": "D#m7",
+        "chord_simple_pop": "D#m7"
+    },
+    {
+        "curr_beat_time": 9.03,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 9.67,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 10.32,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 10.97,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 11.62,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 12.27,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 12.91,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 13.55,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 14.19,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 14.84,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 15.49,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 16.13,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 16.78,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 17.42,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 18.06,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 18.71,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 19.36,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 20.0,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 20.65,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 21.29,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 21.94,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 22.58,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 23.23,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 23.87,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 24.52,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 25.16,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 25.81,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 26.45,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 27.11,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 27.75,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 28.39,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 29.02,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 29.66,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 30.31,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 30.97,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 31.62,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 32.27,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 32.91,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 33.56,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 34.19,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 34.83,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 35.48,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 36.13,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 36.77,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 37.42,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 38.06,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 38.7,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 39.35,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 40.0,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 40.64,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 41.29,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 41.94,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 42.58,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 43.23,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 43.87,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 44.52,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 45.17,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 45.8,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 46.44,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 47.1,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 47.74,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 48.39,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 49.03,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 49.67,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 50.33,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 50.97,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 51.62,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 52.26,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 52.91,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 53.55,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 54.19,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 54.84,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 55.49,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 56.13,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 56.78,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 57.42,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 58.07,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 58.71,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 59.35,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 59.99,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 60.64,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 61.28,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 61.93,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 62.59,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 63.23,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 63.87,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 64.51,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 65.16,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 65.81,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 66.45,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 67.09,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 67.75,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 68.4,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 69.04,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 69.68,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 70.32,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 70.96,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 71.62,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 72.26,
+        "curr_beat": 1,
+        "prev_chord": "C#:min",
+        "chord_complex_jazz": "C#-",
+        "chord_simple_jazz": "C#-",
+        "chord_complex_pop": "C#m",
+        "chord_simple_pop": "C#m"
+    },
+    {
+        "curr_beat_time": 72.91,
+        "curr_beat": 1,
+        "prev_chord": "C#:min",
+        "chord_complex_jazz": "C#-",
+        "chord_simple_jazz": "C#-",
+        "chord_complex_pop": "C#m",
+        "chord_simple_pop": "C#m"
+    },
+    {
+        "curr_beat_time": 73.56,
+        "curr_beat": 1,
+        "prev_chord": "C#:min",
+        "chord_complex_jazz": "C#-",
+        "chord_simple_jazz": "C#-",
+        "chord_complex_pop": "C#m",
+        "chord_simple_pop": "C#m"
+    },
+    {
+        "curr_beat_time": 74.2,
+        "curr_beat": 1,
+        "prev_chord": "C#:min",
+        "chord_complex_jazz": "C#-",
+        "chord_simple_jazz": "C#-",
+        "chord_complex_pop": "C#m",
+        "chord_simple_pop": "C#m"
+    },
+    {
+        "curr_beat_time": 74.84,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 75.48,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 76.12,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 76.77,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 77.41,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 78.06,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 78.71,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 79.35,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 79.99,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 80.62,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 81.25,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 81.92,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 82.57,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 83.22,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 83.86,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 84.51,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 85.16,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 85.78,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 86.43,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 87.08,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 87.74,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 88.39,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 89.04,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 89.68,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 90.33,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 90.97,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 91.61,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 92.26,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 92.91,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 93.55,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 94.19,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 94.84,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 95.49,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 96.13,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 96.77,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 97.42,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 98.07,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 98.71,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 99.36,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 100.0,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 100.64,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 101.29,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 101.94,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 102.58,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 103.22,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 103.87,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 104.51,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 105.16,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 105.8,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 106.45,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 107.1,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 107.74,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 108.39,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 109.02,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 109.68,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 110.32,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 110.97,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 111.61,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 112.26,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 112.9,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 113.54,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E\u03947",
+        "chord_simple_jazz": "E\u03947",
+        "chord_complex_pop": "Emaj7",
+        "chord_simple_pop": "Emaj7"
+    },
+    {
+        "curr_beat_time": 114.19,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 114.84,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 115.48,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 116.14,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 116.77,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 117.43,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 118.07,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 118.71,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 119.36,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 120.0,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 120.66,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 121.33,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 121.97,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 122.63,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 123.28,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 123.91,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 124.53,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 125.17,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 125.81,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 126.46,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 127.1,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 127.74,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 128.39,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 129.04,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 129.68,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 130.33,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 130.96,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 131.61,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 132.26,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 132.91,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 133.54,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 134.22,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E\u03947",
+        "chord_simple_jazz": "E\u03947",
+        "chord_complex_pop": "Emaj7",
+        "chord_simple_pop": "Emaj7"
+    },
+    {
+        "curr_beat_time": 134.84,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E\u03947",
+        "chord_simple_jazz": "E\u03947",
+        "chord_complex_pop": "Emaj7",
+        "chord_simple_pop": "Emaj7"
+    },
+    {
+        "curr_beat_time": 135.49,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E\u03947",
+        "chord_simple_jazz": "E\u03947",
+        "chord_complex_pop": "Emaj7",
+        "chord_simple_pop": "Emaj7"
+    },
+    {
+        "curr_beat_time": 136.12,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E\u03947",
+        "chord_simple_jazz": "E\u03947",
+        "chord_complex_pop": "Emaj7",
+        "chord_simple_pop": "Emaj7"
+    },
+    {
+        "curr_beat_time": 136.78,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E6",
+        "chord_simple_jazz": "E6",
+        "chord_complex_pop": "E6",
+        "chord_simple_pop": "E6"
+    },
+    {
+        "curr_beat_time": 137.41,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E6",
+        "chord_simple_jazz": "E6",
+        "chord_complex_pop": "E6",
+        "chord_simple_pop": "E6"
+    },
+    {
+        "curr_beat_time": 138.07,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E6",
+        "chord_simple_jazz": "E6",
+        "chord_complex_pop": "E6",
+        "chord_simple_pop": "E6"
+    },
+    {
+        "curr_beat_time": 138.71,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E6",
+        "chord_simple_jazz": "E6",
+        "chord_complex_pop": "E6",
+        "chord_simple_pop": "E6"
+    },
+    {
+        "curr_beat_time": 139.36,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 140.01,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 140.64,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 141.3,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 141.94,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 142.58,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 143.23,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 143.87,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 144.51,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 145.16,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 145.79,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 146.45,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 147.09,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 147.73,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 148.38,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 149.02,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 149.67,
+        "curr_beat": 1,
+        "prev_chord": "C#:min",
+        "chord_complex_jazz": "C#-7",
+        "chord_simple_jazz": "C#-7",
+        "chord_complex_pop": "C#m7",
+        "chord_simple_pop": "C#m7"
+    },
+    {
+        "curr_beat_time": 150.32,
+        "curr_beat": 1,
+        "prev_chord": "C#:min",
+        "chord_complex_jazz": "C#-7",
+        "chord_simple_jazz": "C#-7",
+        "chord_complex_pop": "C#m7",
+        "chord_simple_pop": "C#m7"
+    },
+    {
+        "curr_beat_time": 150.96,
+        "curr_beat": 1,
+        "prev_chord": "C#:min",
+        "chord_complex_jazz": "C#-7",
+        "chord_simple_jazz": "C#-7",
+        "chord_complex_pop": "C#m7",
+        "chord_simple_pop": "C#m7"
+    },
+    {
+        "curr_beat_time": 151.61,
+        "curr_beat": 1,
+        "prev_chord": "C#:min",
+        "chord_complex_jazz": "C#-7",
+        "chord_simple_jazz": "C#-7",
+        "chord_complex_pop": "C#m7",
+        "chord_simple_pop": "C#m7"
+    },
+    {
+        "curr_beat_time": 152.25,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 152.89,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 153.54,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 154.18,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 154.83,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 155.48,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 156.14,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 156.77,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 157.42,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 158.05,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 158.7,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 159.35,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 160.0,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 160.63,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 161.28,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 161.92,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 162.57,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 163.2,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 163.85,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 164.5,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 165.15,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 165.8,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 166.44,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 167.1,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 167.74,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 168.38,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 169.03,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 169.68,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 170.32,
+        "curr_beat": 1,
+        "prev_chord": "C#:min",
+        "chord_complex_jazz": "C#-7",
+        "chord_simple_jazz": "C#-7",
+        "chord_complex_pop": "C#m7",
+        "chord_simple_pop": "C#m7"
+    },
+    {
+        "curr_beat_time": 170.96,
+        "curr_beat": 1,
+        "prev_chord": "C#:min",
+        "chord_complex_jazz": "C#-7",
+        "chord_simple_jazz": "C#-7",
+        "chord_complex_pop": "C#m7",
+        "chord_simple_pop": "C#m7"
+    },
+    {
+        "curr_beat_time": 171.61,
+        "curr_beat": 1,
+        "prev_chord": "C#:min",
+        "chord_complex_jazz": "C#-7",
+        "chord_simple_jazz": "C#-7",
+        "chord_complex_pop": "C#m7",
+        "chord_simple_pop": "C#m7"
+    },
+    {
+        "curr_beat_time": 172.25,
+        "curr_beat": 1,
+        "prev_chord": "C#:min",
+        "chord_complex_jazz": "C#-7",
+        "chord_simple_jazz": "C#-7",
+        "chord_complex_pop": "C#m7",
+        "chord_simple_pop": "C#m7"
+    },
+    {
+        "curr_beat_time": 172.89,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 173.54,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 174.18,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 174.83,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 175.47,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 176.12,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 176.76,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 177.41,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 178.06,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#6",
+        "chord_simple_jazz": "F#6",
+        "chord_complex_pop": "F#6",
+        "chord_simple_pop": "F#6"
+    },
+    {
+        "curr_beat_time": 178.7,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#6",
+        "chord_simple_jazz": "F#6",
+        "chord_complex_pop": "F#6",
+        "chord_simple_pop": "F#6"
+    },
+    {
+        "curr_beat_time": 179.34,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#6",
+        "chord_simple_jazz": "F#6",
+        "chord_complex_pop": "F#6",
+        "chord_simple_pop": "F#6"
+    },
+    {
+        "curr_beat_time": 179.99,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#6",
+        "chord_simple_jazz": "F#6",
+        "chord_complex_pop": "F#6",
+        "chord_simple_pop": "F#6"
+    },
+    {
+        "curr_beat_time": 180.64,
+        "curr_beat": 1,
+        "prev_chord": "C#:min",
+        "chord_complex_jazz": "C#-7",
+        "chord_simple_jazz": "C#-7",
+        "chord_complex_pop": "C#m7",
+        "chord_simple_pop": "C#m7"
+    },
+    {
+        "curr_beat_time": 181.28,
+        "curr_beat": 1,
+        "prev_chord": "C#:min",
+        "chord_complex_jazz": "C#-7",
+        "chord_simple_jazz": "C#-7",
+        "chord_complex_pop": "C#m7",
+        "chord_simple_pop": "C#m7"
+    },
+    {
+        "curr_beat_time": 181.93,
+        "curr_beat": 1,
+        "prev_chord": "C#:min",
+        "chord_complex_jazz": "C#-7",
+        "chord_simple_jazz": "C#-7",
+        "chord_complex_pop": "C#m7",
+        "chord_simple_pop": "C#m7"
+    },
+    {
+        "curr_beat_time": 182.57,
+        "curr_beat": 1,
+        "prev_chord": "C#:min",
+        "chord_complex_jazz": "C#-7",
+        "chord_simple_jazz": "C#-7",
+        "chord_complex_pop": "C#m7",
+        "chord_simple_pop": "C#m7"
+    },
+    {
+        "curr_beat_time": 183.21,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 183.86,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 184.5,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 185.13,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 185.77,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 186.43,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 187.08,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 187.72,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 188.36,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 189.0,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 189.63,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 190.3,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 190.94,
+        "curr_beat": 1,
+        "prev_chord": "C#:min",
+        "chord_complex_jazz": "C#-7",
+        "chord_simple_jazz": "C#-7",
+        "chord_complex_pop": "C#m7",
+        "chord_simple_pop": "C#m7"
+    },
+    {
+        "curr_beat_time": 191.59,
+        "curr_beat": 1,
+        "prev_chord": "C#:min",
+        "chord_complex_jazz": "C#-7",
+        "chord_simple_jazz": "C#-7",
+        "chord_complex_pop": "C#m7",
+        "chord_simple_pop": "C#m7"
+    },
+    {
+        "curr_beat_time": 192.22,
+        "curr_beat": 1,
+        "prev_chord": "C#:min",
+        "chord_complex_jazz": "C#-7",
+        "chord_simple_jazz": "C#-7",
+        "chord_complex_pop": "C#m7",
+        "chord_simple_pop": "C#m7"
+    },
+    {
+        "curr_beat_time": 192.87,
+        "curr_beat": 1,
+        "prev_chord": "C#:min",
+        "chord_complex_jazz": "C#-7",
+        "chord_simple_jazz": "C#-7",
+        "chord_complex_pop": "C#m7",
+        "chord_simple_pop": "C#m7"
+    },
+    {
+        "curr_beat_time": 193.52,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 194.18,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 194.82,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 195.46,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 196.12,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 196.75,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 197.42,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 198.05,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 198.68,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 199.33,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 199.97,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 200.62,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 201.27,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 201.91,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 202.56,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 203.2,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-",
+        "chord_simple_jazz": "D#-",
+        "chord_complex_pop": "D#m",
+        "chord_simple_pop": "D#m"
+    },
+    {
+        "curr_beat_time": 203.85,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 204.49,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 205.13,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 205.78,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 206.45,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 207.08,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 207.76,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 208.39,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 209.02,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 209.66,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 210.32,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 210.95,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 211.58,
+        "curr_beat": 1,
+        "prev_chord": "C#:min",
+        "chord_complex_jazz": "C#-7",
+        "chord_simple_jazz": "C#-7",
+        "chord_complex_pop": "C#m7",
+        "chord_simple_pop": "C#m7"
+    },
+    {
+        "curr_beat_time": 212.24,
+        "curr_beat": 1,
+        "prev_chord": "C#:min",
+        "chord_complex_jazz": "C#-7",
+        "chord_simple_jazz": "C#-7",
+        "chord_complex_pop": "C#m7",
+        "chord_simple_pop": "C#m7"
+    },
+    {
+        "curr_beat_time": 212.88,
+        "curr_beat": 1,
+        "prev_chord": "C#:min",
+        "chord_complex_jazz": "C#-7",
+        "chord_simple_jazz": "C#-7",
+        "chord_complex_pop": "C#m7",
+        "chord_simple_pop": "C#m7"
+    },
+    {
+        "curr_beat_time": 213.53,
+        "curr_beat": 1,
+        "prev_chord": "C#:min",
+        "chord_complex_jazz": "C#-7",
+        "chord_simple_jazz": "C#-7",
+        "chord_complex_pop": "C#m7",
+        "chord_simple_pop": "C#m7"
+    },
+    {
+        "curr_beat_time": 214.18,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 214.82,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 215.46,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 216.11,
+        "curr_beat": 1,
+        "prev_chord": "G#:min",
+        "chord_complex_jazz": "G#-",
+        "chord_simple_jazz": "G#-",
+        "chord_complex_pop": "G#m",
+        "chord_simple_pop": "G#m"
+    },
+    {
+        "curr_beat_time": 216.76,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 217.42,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 218.08,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 218.71,
+        "curr_beat": 1,
+        "prev_chord": "E:maj",
+        "chord_complex_jazz": "E",
+        "chord_simple_jazz": "E",
+        "chord_complex_pop": "E",
+        "chord_simple_pop": "E"
+    },
+    {
+        "curr_beat_time": 219.34,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 219.99,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 220.64,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 221.28,
+        "curr_beat": 1,
+        "prev_chord": "F#:maj",
+        "chord_complex_jazz": "F#",
+        "chord_simple_jazz": "F#",
+        "chord_complex_pop": "F#",
+        "chord_simple_pop": "F#"
+    },
+    {
+        "curr_beat_time": 221.94,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-7",
+        "chord_simple_jazz": "D#-7",
+        "chord_complex_pop": "D#m7",
+        "chord_simple_pop": "D#m7"
+    },
+    {
+        "curr_beat_time": 222.57,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-7",
+        "chord_simple_jazz": "D#-7",
+        "chord_complex_pop": "D#m7",
+        "chord_simple_pop": "D#m7"
+    },
+    {
+        "curr_beat_time": 223.23,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-7",
+        "chord_simple_jazz": "D#-7",
+        "chord_complex_pop": "D#m7",
+        "chord_simple_pop": "D#m7"
+    },
+    {
+        "curr_beat_time": 223.87,
+        "curr_beat": 1,
+        "prev_chord": "D#:min",
+        "chord_complex_jazz": "D#-7",
+        "chord_simple_jazz": "D#-7",
+        "chord_complex_pop": "D#m7",
+        "chord_simple_pop": "D#m7"
+    },
+    {
+        "curr_beat_time": 224.51,
+        "curr_beat": 1,
+        "prev_chord": "N",
+        "chord_complex_jazz": "N",
+        "chord_simple_jazz": "N",
+        "chord_complex_pop": "N",
+        "chord_simple_pop": "N"
+    }
+]
