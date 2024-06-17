@@ -1,0 +1,29 @@
+#dmx-console{
+    width: 20vw;
+    background-color: #334141;
+    height: 100%;
+    padding: 10px;
+}
+
+#dmx-console>div{
+    width: 100%;
+}
+
+#dmx-console input[type="range"]{
+    width: 100%;
+}
+
+#dmx-console .channels{
+padding: 5px;
+}
+
+#dmx-console .name{
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid #666;
+    margin-bottom: 4px;
+}
+
+#dmx-console .channel-name{
+    font-size: 9px;
+}
