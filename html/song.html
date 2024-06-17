@@ -1,0 +1,7 @@
+    <div id="song">
+        <div id="beats" class="square-wrapper">
+        {% for beat in song.beats %}
+            <div class="square beat">{{beat.chord_complex_pop}}</div>
+        {% endfor %}
+        </div>
+    </div>

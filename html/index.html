@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtNet Song Player </title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/player.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/song.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-wrapper">
+        <div>
+            {% include 'song.html' %}
+        </div>
+        <div>
+            {% include 'dmx-console.html' %}
+        </div>
+    </div>
+    {% include 'player.html' %}
+</body>
+</html>

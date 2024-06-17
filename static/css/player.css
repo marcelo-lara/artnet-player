@@ -1,0 +1,20 @@
+#player {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e1d22;
+    width: 100%;
+}
+
+#player>div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+#player>div:last-child {
+    justify-content: flex-end;
+}
