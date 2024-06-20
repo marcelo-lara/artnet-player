@@ -12,6 +12,7 @@ class Beat:
 
 class Song:
     def __init__(self, song_data):
+        self.bpm = 120
         self.beats = [Beat(beat) for beat in song_data]
 
     @classmethod
@@ -28,3 +29,10 @@ class Song:
     def song_num_of_beats(self):
         return len(self.beats)
     
+    @property
+    def bpm(self):
+        return self._bpm
+    
+    @bpm.setter
+    def bpm(self, value):
+        self._bpm = value
