@@ -38,6 +38,10 @@ def handle_pause():
 def handle_stop():
     player.stop()
 
+@socketio.on('set_bpm')
+def handle_set_bpm(bpm):
+    player.update_song_bpm(bpm)
+
 ## Main loop
 if __name__ == '__main__':
     DEBUG = os.getenv('DEBUG', 'True') == 'True'

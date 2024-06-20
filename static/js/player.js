@@ -3,8 +3,47 @@ var socket = io.connect('http://' + location.hostname + ':' + location.port);
 /// store elements to control dynamically
 var playButtonIcon = document.getElementById('playButton');
 var stopButton = document.getElementById('stop');
+var bpmButton = document.getElementById('song_bpm');
 var beats = document.getElementsByClassName('beat');
 var currTimeElement = document.getElementById('curr_time');
+
+/// update the bpm on drag up or down
+let isDragging = false;
+let isOverBpmDiv = false;
+let lastBpm = parseInt(bpmButton.textContent);
+let currBpm = parseInt(bpmButton.textContent);
+let startY;
+
+this.bpmButton.addEventListener('mousedown', (event) => {
+    isDragging = true;
+    startY = event.clientY;
+    event.preventDefault();
+});
+
+this.bpmButton.addEventListener('mouseenter', (event) => {
+    isOverBpmDiv = true;
+    event.preventDefault();
+});
+
+window.addEventListener('mousemove', (event) => {
+    if (isDragging && isOverBpmDiv) {
+        const deltaY = startY - event.clientY;
+        let newBpm = currBpm += parseInt(deltaY * 0.5); // Adjust the multiplier as needed
+        if(newBpm != lastBpm){
+            bpmButton.textContent = newBpm;
+            lastBpm = newBpm;
+            socket.emit('set_bpm', newBpm);
+        }
+        startY = event.clientY;
+        event.preventDefault();
+    }
+});
+
+window.addEventListener('mouseup', (event) => {
+    isOverBpmDiv = false;
+    isDragging = false;
+});
+
 
 /// control the play/pause status of player
 socket.on('status', function(status) {

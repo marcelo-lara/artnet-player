@@ -12,6 +12,11 @@ class Player:
         self.song = song
         self.fps = song.bpm / 60
 
+    def update_song_bpm(self, bpm):
+        self.song.bpm = bpm
+        self.fps = bpm / 60
+        print(f'player BPM set to {bpm} -> {self.fps} FPS')
+
     def play(self):
         self.status = 'playing'
         self.start_timer()
