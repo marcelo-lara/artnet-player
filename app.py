@@ -6,13 +6,14 @@ from flask_socketio import SocketIO
 from aalink import Link
 from threading import Thread
 from lib.fixtures import setup_artnet_fixtures, create_fixture, Channel, ArtNetNodeInstance
+from lib.fixtures.artNetNodeInstance import dispatch_artnet_packet
 import yaml
 
 # create the Flask app
 app = Flask(__name__, template_folder='html')
 socketio = SocketIO(app)
 
-### Artnet Block
+#### Artnet Block ####################################################################
 ## Load Fixtures
 with open('fixtures.yaml', 'r') as file:
     fixtures_data = yaml.safe_load(file)
@@ -25,21 +26,6 @@ with app.app_context():
 
 def get_channel_by_id(channel_id)->Channel:
     return next(c for c in artnet_channels if c['name'] == channel_id)['instance']
-
-async def dispatch_artnet_packet(channel:Channel):
-
-    # Get the ArtNet node and channel
-    node = ArtNetNodeInstance()
-
-    # Set next values and fade
-    if channel.next_fade_duration is not None:
-        channel.set_fade(channel.next_value, channel.next_fade_duration)
-    else:
-        channel.set_value(channel.next_value)
-
-    # send and leave the node running
-    node.start_refresh()
-    await asyncio.sleep(0.01)
 
 @socketio.on('slider_change')
 def handle_slider_change(data):
@@ -54,6 +40,8 @@ def handle_slider_change(data):
 
     # Dispatch the ArtNet packet
     asyncio.run(dispatch_artnet_packet(channel))
+    
+####################################################################
 
 from lib.player import Player
 from lib.song import Song
