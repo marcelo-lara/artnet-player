@@ -6,11 +6,24 @@ var stopButton = document.getElementById('stop');
 var bpmButton = document.getElementById('song_bpm');
 var beats = document.getElementsByClassName('beat');
 var currTimeElement = document.getElementById('curr_time');
+var abletonLinkElement = document.getElementById('ableton_link');
+
+/// player object to store the player state
+const player = {
+    is_playing: false,
+    is_linked: false,
+    bpm: parseInt(bpmButton.textContent)
+}
+
+this.abletonLinkElement.addEventListener('click', (event) => {
+    socket.emit('ableton_link');
+    event.preventDefault();
+});
+
 
 /// update the bpm on drag up or down
 let isDragging = false;
 let isOverBpmDiv = false;
-let lastBpm = parseInt(bpmButton.textContent);
 let currBpm = parseInt(bpmButton.textContent);
 let startY;
 
@@ -28,12 +41,10 @@ this.bpmButton.addEventListener('mouseenter', (event) => {
 window.addEventListener('mousemove', (event) => {
     if (isDragging && isOverBpmDiv) {
         const deltaY = startY - event.clientY;
-        let newBpm = currBpm += parseInt(deltaY * 0.5); // Adjust the multiplier as needed
-        if(newBpm != lastBpm){
-            bpmButton.textContent = newBpm;
-            lastBpm = newBpm;
-            socket.emit('set_bpm', newBpm);
-        }
+        let newBpm = player.bpm + parseInt(deltaY * 0.5); // Adjust the multiplier as needed
+        console.log('newBpm:', newBpm, 'player.bpm:', player.bpm)
+        if(newBpm != player.bpm)
+            setBpm(newBpm, true);
         startY = event.clientY;
         event.preventDefault();
     }
@@ -43,6 +54,18 @@ window.addEventListener('mouseup', (event) => {
     isOverBpmDiv = false;
     isDragging = false;
 });
+
+
+function setBpm(bpm, emit = false){
+    player.bpm = bpm;
+    console.log('-> player.bpm:', player.bpm);
+    bpmButton.textContent = player.bpm;
+    if(emit){
+        socket.emit('set_bpm', player.bpm);
+    }
+}
+
+
 
 
 /// control the play/pause status of player
