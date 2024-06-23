@@ -1,6 +1,10 @@
+import asyncio
+from operator import is_
 import os
 from flask import Flask, render_template
 from flask_socketio import SocketIO
+from aalink import Link
+from threading import Thread
 
 # create the Flask app
 app = Flask(__name__, template_folder='html')
@@ -40,7 +44,54 @@ def handle_stop():
 
 @socketio.on('set_bpm')
 def handle_set_bpm(bpm):
-    player.update_song_bpm(bpm)
+    player.set_bpm(bpm)
+
+## Ableton Link callbacks
+def start_stop_callback(playing):
+    print(f'ableton -> playing: {playing}')
+    if playing:
+        player.play(auto=False)
+    else:
+        player.stop()
+
+def handle_tempo_change(tempo):
+    print(f'ableton -> tempo: {tempo}')
+    player.set_bpm(round(tempo))
+    socketio.emit('bpm', player.bpm)
+
+
+link_connected = False
+async def aa_link():
+    global link_connected
+    if link_connected == True: return
+    link_connected = True
+
+    loop = asyncio.get_running_loop()
+
+    link = Link(0, loop)
+    link.start_stop_sync_enabled = True
+    link.playing = False
+    await asyncio.sleep(1)
+    link.set_tempo_callback(handle_tempo_change)
+    link.set_start_stop_callback(start_stop_callback)
+    link.enabled = True
+
+    while True:
+        await link.sync(1)
+        if player.is_playing:
+            print(f'sync.. beat {link.beat} | phase {link.phase} | time {link.time} | quantum {link.quantum}')
+            player.next_beat()
+
+def run_aa_link():
+    asyncio.run(aa_link())
+
+@socketio.on('connect')
+def handle_connect():
+    print('Client connected')
+    # start the Ableton Link
+    # asyncio.run(aa_link())
+    t = Thread(target=run_aa_link)
+    t.start()
 
 ## Main loop
 if __name__ == '__main__':

@@ -93,6 +93,11 @@ document.getElementById('stop').addEventListener('click', function() {
     socket.emit('stop');
 });
 
+socket.on('bpm', function(bpm) {
+    console.log('bpm:', bpm);
+    setBpm(bpm);
+});
+
 /// update the current beat
 socket.on('curr', function(curr) {
     console.log('curr:', curr);

@@ -13,18 +13,18 @@ class Player:
         self.bpm = song.bpm
         self.fps = song.bpm / 60
     
-    @property
-    def bpm(self):
-        return self.song.bpm
-    @bpm.setter
-    def bpm(self, bpm):
-        self.song.bpm = bpm
+    def set_bpm(self, bpm):
+        self.bpm = bpm
         self.fps = bpm / 60
         print(f'player BPM set to {bpm} -> {self.fps} FPS')
 
-    def play(self):
+    @property
+    def is_playing(self):
+        return self.status == 'playing'
+
+    def play(self, auto=True):
         self.status = 'playing'
-        self.start_timer()
+        if auto: self.start_timer()
         self._update_status()
 
     def pause(self):
@@ -42,19 +42,12 @@ class Player:
 
     def next_beat(self):
         self.curr_beat += 1
+        self._update_timecode()
 
-    def next_frame(self):
-        self.curr_time = self.song.beats[self.curr_beat].curr_beat_time
-
+    ## autoplay
     def timer_callback(self):
         if self.status == 'playing':
-            self.next_frame()
             self.next_beat()
-
-            # Emit the current beat
-            self._update_timecode()
-
-            # call the next beat every 4 frames
             self.start_timer()
 
     def start_timer(self):
@@ -66,9 +59,11 @@ class Player:
             self.timer.cancel()
             self.timer = None
     
+    ## update UI
     def _update_timecode(self):
-        print(f".. click [{self.curr_beat} -> {self.song.beats[self.curr_beat].curr_beat_time}]")
+        self.curr_time = self.song.beats[self.curr_beat].curr_beat_time
         self.socketio.emit('curr', {'time': self.curr_time, 'beat': self.curr_beat})
+        print(f".. click [{self.curr_beat} -> {self.song.beats[self.curr_beat].curr_beat_time}]")
 
     def _update_status(self):
         self.socketio.emit('status', self.status)

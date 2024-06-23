@@ -1,9 +1,35 @@
 from aalink import Link
+import asyncio
+
+link_connected = False
+async def aa_link():
+    global link_connected
+    if link_connected == True: return
+    link_connected = True
+
+    loop = asyncio.get_running_loop()
+
+    link = Link(0, loop)
+    link.start_stop_sync_enabled = True
+    link.playing = False
+    await asyncio.sleep(1)
+    link.set_tempo_callback(handle_tempo_change)
+    link.set_start_stop_callback(start_stop_callback)
+    link.enabled = True
+
+    while True:
+        await link.sync(1)
+        if player.is_playing:
+            print(f'sync.. beat {link.beat} | phase {link.phase} | time {link.time} | quantum {link.quantum}')
+            player.next_beat()
+
+def run_aa_link():
+    asyncio.run(aa_link())
+
 
 ### Ableton Link
 # def start_stop_callback(playing):
 #     print(f'playing: {playing}')
-
 
 # def handle_tempo_change(tempo):
 #     print(f'tempo: {tempo}')
