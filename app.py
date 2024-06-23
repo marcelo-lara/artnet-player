@@ -60,11 +60,11 @@ def handle_tempo_change(tempo):
     socketio.emit('bpm', player.bpm)
 
 
-link_connected = False
+link_armed = False
 async def aa_link():
-    global link_connected
-    if link_connected == True: return
-    link_connected = True
+    global link_armed
+    if link_armed == True: return
+    link_armed = True
 
     loop = asyncio.get_running_loop()
 
