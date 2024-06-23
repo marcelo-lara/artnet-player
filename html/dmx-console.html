@@ -1,33 +1,17 @@
     <div id="dmx-console">
         <div class="fixtures">
+            {% for fixture in fixtures %}
             <div class="fixture">
-                <div class="name">ParCan Left</div>
+                <div class="name">{{ fixture.name }}</div>
                 <div class="channels">
+                    {% for channel in fixture.channels %}
                     <div class="channel">
-                        <div class="channel-name">Dimmer</div>
-                        <input type="range" class="slider" min="0" max="255" value="0">
+                        <div class="channel-name">{{ channel.name }}</div>
+                        <input type="range" class="slider" min="0" max="255" value="{{ channel.value }}" data-channel-id="{{ channel.id }}">
                     </div>
-                    <div class="channel">
-                        <div class="channel-name">Dimmer</div>
-                        <input type="range" class="slider" min="0" max="255" value="0">
-                    </div>
-                    <div class="channel">
-                        <div class="channel-name">Dimmer</div>
-                        <input type="range" class="slider" min="0" max="255" value="0">
-                    </div>
-                    <div class="channel">
-                        <div class="channel-name">Dimmer</div>
-                        <input type="range" class="slider" min="0" max="255" value="0">
-                    </div>
-                    <div class="channel">
-                        <div class="channel-name">Dimmer</div>
-                        <input type="range" class="slider" min="0" max="255" value="0">
-                    </div>
-                    <div class="channel">
-                        <div class="channel-name">Dimmer</div>
-                        <input type="range" class="slider" min="0" max="255" value="0">
-                    </div>
+                    {% endfor %}
                 </div>
             </div>
+            {% endfor %}            
         </div>
     </div>

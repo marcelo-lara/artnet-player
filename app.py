@@ -68,7 +68,7 @@ print(song.song_duration)
 ## Flask routes
 @app.route('/', methods=['GET'])
 def index():
-    return render_template('index.html', song=song)
+    return render_template('index.html', song=song, fixtures=fixtures)
 
 
 ## Player block
