@@ -28,7 +28,7 @@ with app.app_context():
 def get_channel_by_id(channel_id)->Channel:
     return next(c for c in artnet_channels if c['name'] == channel_id)['instance']
 
-def dump_channels(channel_id):
+def dump_channels():
     return [channel['instance'].get_value_as_dict() for channel in artnet_channels]
 
 @socketio.on('slider_change')
@@ -51,10 +51,22 @@ cues_file = f'songbook/{song}.yaml'
 chaser = Chaser(song)
 
 @socketio.on('save_beat')
-def handle_save_beat(data=None):
-    print(data)
+def handle_save_beat(beat=None):
+    print(beat)
+    if beat is None: return
     # save beat to cue sheet
-    chaser.store_beat(int(7), dump_channels())
+    chaser.store_beat(int(beat), dump_channels())
+
+@socketio.on('save_note')
+def handle_save_beat(note=None):
+    print(note)
+    if note is None: return
+    # save note to cue sheet
+    chaser.store_note(note, dump_channels())
+
+def trigger_scene(scene):
+    # get the channels for the scene
+    print("next scene", scene)
 
 ####################################################################
 
@@ -93,7 +105,7 @@ def handle_stop():
 def handle_set_bpm(bpm):
     player.set_bpm(bpm)
 
-## Ableton Link callbacks
+## Ableton Link callbacks ##############################################################################
 def start_stop_callback(playing):
     print(f'ableton -> playing: {playing}')
     if playing:
@@ -140,7 +152,7 @@ def handle_connect():
     t = Thread(target=run_aa_link)
     t.start()
 
-## Main loop
+## Main loop ##############################################################################
 if __name__ == '__main__':
     DEBUG = os.getenv('DEBUG', 'True') == 'True'
     socketio.run(app, host="0.0.0.0", debug=DEBUG, port=5000, allow_unsafe_werkzeug=True)

@@ -1,3 +1,15 @@
+.beat {
+    border:1px solid #000;
+}
+
 .current {
     background-color: #35683c;
+}
+
+.selected {
+    background-color: #4d4d4d;
+}
+
+.hasdata {
+    border:1px solid #003304;
 }

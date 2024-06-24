@@ -3,7 +3,7 @@ import threading
 import socketio
 
 class Player:
-    def __init__(self, song, socketio):
+    def __init__(self, song, socketio, next_beat_callback=None):
         self.curr_beat = 0
         self.curr_time = 0
         self.status = 'stopped'
@@ -12,6 +12,7 @@ class Player:
         self.song = song
         self.bpm = song.bpm
         self.fps = song.bpm / 60
+        self.next_beat_callback = next_beat_callback
     
     def set_bpm(self, bpm):
         self.bpm = bpm
@@ -43,6 +44,8 @@ class Player:
     def next_beat(self):
         self.curr_beat += 1
         self._update_timecode()
+        if self.next_beat_callback is not None:
+            self.next_beat_callback(self.curr_beat)
 
     ## autoplay
     def timer_callback(self):

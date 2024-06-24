@@ -7,19 +7,38 @@ var bpmButton = document.getElementById('song_bpm');
 var beats = document.getElementsByClassName('beat');
 var currTimeElement = document.getElementById('curr_time');
 var abletonLinkElement = document.getElementById('ableton_link');
+var currentNoteElement = document.getElementById('current_note');
+var currentBeatElement = document.getElementById('current_beat');
 
 /// player object to store the player state
 const player = {
     is_playing: false,
     is_linked: false,
-    bpm: parseInt(bpmButton.textContent)
+    bpm: parseInt(bpmButton.textContent),
+    current_note: '-',
+    current_beat: '-',
+}
+
+for (const idx in this.beats) {
+    if (this.beats.hasOwnProperty(idx)){
+        beats[idx].addEventListener('click', () => {
+            player.current_beat = idx;
+            player.current_note = beats[idx].textContent;
+            currentNoteElement.textContent = player.current_note;
+            currentBeatElement.textContent = player.current_beat;
+            document.querySelectorAll('.beat.selected').forEach(beat => {
+                beat.classList.remove('selected');
+            });
+            beats[idx].classList.add('selected');
+        });  
+    }
+
 }
 
 this.abletonLinkElement.addEventListener('click', (event) => {
     socket.emit('ableton_link');
     event.preventDefault();
 });
-
 
 /// update the bpm on drag up or down
 let isDragging = false;

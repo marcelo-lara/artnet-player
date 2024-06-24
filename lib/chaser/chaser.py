@@ -32,6 +32,22 @@ class Chaser:
         self.cues['song']['beats'][beat] = channels
         self.save_cues()
 
+    def store_note(self, note: str, channels: list[Channel]):
+        ## check if note exists in song/beats
+        if 'song' not in self.cues:
+            self.cues['song'] = {}
+        if 'notes' not in self.cues['song']:
+            self.cues['song']['notes'] = {}
+        if note not in self.cues['song']['notes']:
+            self.cues['song']['notes'].update({note: {}})
+
+        ## store the channels
+        self.cues['song']['beats'][note] = channels
+        self.save_cues()
+
     def get_beat(self, beat: int):
-        print (self.cues['song']['beats'][beat])
+        # first check if the beat exists
+
+        # if not, cheack if the beat is a note
+
         return self.cues['song']['beats'][beat]

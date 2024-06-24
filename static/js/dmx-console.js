@@ -13,5 +13,13 @@ var dmxSaveBeat = document.getElementById('dmx-save-beat');
 var dmxBlackout = document.getElementById('dmx-blackout');
 
 dmxSaveBeat.addEventListener('click', ()=>{
-    socket.emit('save_beat');
+    if(player.current_beat=='-') return;
+    console.log(player.current_beat)
+    socket.emit('save_beat', parseInt(player.current_beat));
+});
+
+dmxSaveNote.addEventListener('click', ()=>{
+    if(player.current_note=='-') return;
+    console.log(player.current_note)
+    socket.emit('save_note', player.current_note);
 });
