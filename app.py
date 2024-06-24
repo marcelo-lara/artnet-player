@@ -5,7 +5,8 @@ from flask import Flask, render_template
 from flask_socketio import SocketIO
 from aalink import Link
 from threading import Thread
-from lib.fixtures import setup_artnet_fixtures, create_fixture, Channel, ArtNetNodeInstance
+from lib.chaser.chaser import Chaser
+from lib.fixtures import channel, setup_artnet_fixtures, create_fixture, Channel, ArtNetNodeInstance
 from lib.fixtures.artNetNodeInstance import dispatch_artnet_packet
 import yaml
 
@@ -27,6 +28,9 @@ with app.app_context():
 def get_channel_by_id(channel_id)->Channel:
     return next(c for c in artnet_channels if c['name'] == channel_id)['instance']
 
+def dump_channels(channel_id):
+    return [channel['instance'].get_value_as_dict() for channel in artnet_channels]
+
 @socketio.on('slider_change')
 def handle_slider_change(data):
 
@@ -40,7 +44,18 @@ def handle_slider_change(data):
 
     # Dispatch the ArtNet packet
     asyncio.run(dispatch_artnet_packet(channel))
-    
+
+## load the cue sheet from the yaml file
+song = "obsession"
+cues_file = f'songbook/{song}.yaml'
+chaser = Chaser(song)
+
+@socketio.on('save_beat')
+def handle_save_beat(data=None):
+    print(data)
+    # save beat to cue sheet
+    chaser.store_beat(int(7), dump_channels())
+
 ####################################################################
 
 from lib.player import Player

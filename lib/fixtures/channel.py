@@ -75,7 +75,21 @@ class Channel:
             return [int(value)]
         else:
             return [int(self.value)]
-    
+
+    def get_value_as_dict(self)->dict:
+        """
+        Returns the current value of the channel as a dictionary.
+
+        Parameters:
+        - None
+
+        Returns:
+        - dict: The current value of the channel.
+        """
+        return {
+            self.number: self.value
+        }
+
     def complete_send(self):
         # Store last value sent
         self.value = self.next_value
