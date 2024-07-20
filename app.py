@@ -46,9 +46,10 @@ def handle_slider_change(data):
     asyncio.run(dispatch_artnet_packet(channel))
 
 ## load the cue sheet from the yaml file
-song = "obsession"
-cues_file = f'songbook/{song}.yaml'
-chaser = Chaser(song)
+song_title = "berlin_metro"
+cues_file = f'songbook/{song_title}.yaml'
+chords_file =f'songbook/{song_title}.json'
+chaser = Chaser(song_title)
 
 @socketio.on('save_beat')
 def handle_save_beat(beat=None):
@@ -75,7 +76,7 @@ from lib.song import Song
 
 # load the song from the JSON file
 # a song is a collection of beats and chords in groups of 4 beats
-song = Song.from_json_file('songbook/obsession.json')
+song = Song.from_json_file(chords_file)
 
 # print the duration of the song
 print(song.song_duration)
@@ -83,7 +84,7 @@ print(song.song_duration)
 ## Flask routes
 @app.route('/', methods=['GET'])
 def index():
-    return render_template('index.html', song=song, fixtures=fixtures)
+    return render_template('index.html', song=song, fixtures=fixtures, song_name=song_title)
 
 
 ## Player block
