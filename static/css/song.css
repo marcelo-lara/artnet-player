@@ -1,5 +1,5 @@
 .beat {
-    border:1px solid #000;
+    border: 1px solid #000;
 }
 
 .current {
@@ -11,5 +11,31 @@
 }
 
 .hasdata {
-    border:1px solid #003304;
+    border: 1px solid #003304;
 }
+
+#song {
+flex: 1 1 auto;
+padding: 10px;
+}
+
+div.segment {
+    display: block;
+}
+
+div.bars {
+    display: block;
+    text-align: left;
+}
+
+div.bars>div {
+}
+
+
+div.bar {
+    display: inline-block;
+}
+
+div.bar>div {
+}
+

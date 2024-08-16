@@ -1,7 +1,16 @@
-    <div id="song">
-        <div id="beats" class="square-wrapper">
-        {% for beat in song.beats %}
-            <div class="square beat button">{{beat.chord_complex_pop}}</div>
-        {% endfor %}
+<div id="song">
+    {% for segment in sheet %}
+    <div class="segment">
+        <div class="title">{{segment.label}}</div>
+        <div class="bars">
+            {% for bar in segment.bars %}
+            <div class="bar square-wrapper">
+                {% for beat in bar.beats %}
+                <div class="square beat button">{{beat.chord_complex_pop}}</div>
+                {% endfor %}
+            </div>
+            {% endfor %}
         </div>
     </div>
+    {% endfor %}
+</div>
