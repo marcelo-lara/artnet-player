@@ -50,6 +50,7 @@ a {
 .square {
     flex: 0 0 50px; /* This replaces the width and height properties */
     height: 50px;
+    width: 50px;
     margin: 5px;
     background-color: #2b2b2b;
     color: #eee;

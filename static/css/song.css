@@ -24,8 +24,9 @@ div.segment {
 }
 
 div.bars {
-    display: block;
     text-align: left;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 div.bars>div {
@@ -33,9 +34,11 @@ div.bars>div {
 
 
 div.bar {
-    display: inline-block;
+    justify-content: flex-start;
+    width: fit-content;
+    border-left: 1px solid #999;
 }
 
-div.bar>div {
+div.bar:first-child {
+    border-left: none;
 }
-
