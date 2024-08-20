@@ -145,8 +145,6 @@ def run_aa_link():
 @socketio.on('connect')
 def handle_connect():
     print('Client connected')
-    # start the Ableton Link
-    # asyncio.run(aa_link())
     t = Thread(target=run_aa_link)
     t.start()
 

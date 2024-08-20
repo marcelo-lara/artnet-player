@@ -1,5 +1,5 @@
 import threading
-
+import time
 import socketio
 
 class Player:
@@ -13,6 +13,8 @@ class Player:
         self.bpm = song.bpm
         self.fps = song.bpm / 60
         self.next_beat_callback = next_beat_callback
+        self.start_time = 0
+        self.play_time = 0
     
     def set_bpm(self, bpm):
         self.bpm = bpm
@@ -25,7 +27,8 @@ class Player:
 
     def play(self, auto=True):
         self.status = 'playing'
-        if auto: self.start_timer()
+        # if auto: self.start_timer()
+        self.start_time = time.time()
         self._update_status()
 
     def pause(self):
@@ -42,8 +45,8 @@ class Player:
         self._update_timecode()
 
     def next_beat(self):
-        self.curr_beat += 1
         self._update_timecode()
+        self.curr_beat += 1
         if self.next_beat_callback is not None:
             self.next_beat_callback(self.curr_beat)
 
@@ -54,6 +57,7 @@ class Player:
             self.start_timer()
 
     def start_timer(self):
+        print(f'[timer] starting timer..')
         self.timer = threading.Timer(1/self.fps, self.timer_callback)
         self.timer.start()
 
@@ -64,9 +68,11 @@ class Player:
     
     ## update UI
     def _update_timecode(self):
+        self.play_time = time.time() - self.start_time
         self.curr_time = self.song.beats[self.curr_beat].curr_beat_time
         self.socketio.emit('curr', {'time': self.curr_time, 'beat': self.curr_beat})
-        print(f".. click [{self.curr_beat} -> {self.song.beats[self.curr_beat].curr_beat_time}]")
+        offset = self.curr_time - self.play_time
+        print(f".. click [{self.curr_beat} -> {self.song.beats[self.curr_beat].curr_beat_time} ~{offset}]")
 
     def _update_status(self):
         self.socketio.emit('status', self.status)
