@@ -31,7 +31,7 @@ class Bar:
         self.beats = beats
 
 class Song:
-    def __init__(self, song_data, segments_data, bpm=120):
+    def __init__(self, song_data, segments_data, bpm=120.0):
         self.bpm = bpm
         self.beats = [Beat(beat) for beat in song_data]
         self.segments = [Segment(segment) for segment in segments_data]
@@ -80,9 +80,9 @@ class Song:
         return len(self.beats)
     
     @property
-    def bpm(self):
+    def bpm(self)->float:
         return self._bpm
     
     @bpm.setter
-    def bpm(self, value):
+    def bpm(self, value: float):
         self._bpm = value

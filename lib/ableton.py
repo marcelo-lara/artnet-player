@@ -1,74 +1,46 @@
-from aalink import Link
 import asyncio
-
-link_connected = False
-async def aa_link():
-    global link_connected
-    if link_connected == True: return
-    link_connected = True
-
-    loop = asyncio.get_running_loop()
-
-    link = Link(0, loop)
-    link.start_stop_sync_enabled = True
-    link.playing = False
-    await asyncio.sleep(1)
-    link.set_tempo_callback(handle_tempo_change)
-    link.set_start_stop_callback(start_stop_callback)
-    link.enabled = True
-
-    while True:
-        await link.sync(1)
-        if player.is_playing:
-            print(f'sync.. beat {link.beat} | phase {link.phase} | time {link.time} | quantum {link.quantum}')
-            player.next_beat()
-
-def run_aa_link():
-    asyncio.run(aa_link())
-
-
-### Ableton Link
-# def start_stop_callback(playing):
-#     print(f'playing: {playing}')
-
-# def handle_tempo_change(tempo):
-#     print(f'tempo: {tempo}')
-
-# async def aa_link():
-#     loop = asyncio.get_running_loop()
-
-#     link = Link(120, loop)
-#     link.set_start_stop_callback(start_stop_callback)
-#     link.set_tempo_callback(handle_tempo_change)
-#     link.enabled = True
-
-#     while True:
-#         await link.sync(1)
-#         print('bang!')    
-
-# asyncio.run(aa_link())
-
+from aalink import Link
 
 class Ableton:
-    def __init__(self, loop, bpm):
-        self.loop = loop
-        self.bpm = bpm
-        self.link = Link(bpm, loop)
-        self.link.set_start_stop_callback(self.start_stop_callback)
-        self.link.set_tempo_callback(self.handle_tempo_change)
+    def __init__(self, player):
+        self.player = player
+        self.link_armed = False
 
     def start_stop_callback(self, playing):
-        print(f'playing: {playing}')
+        print(f'ableton -> playing: {playing}')
+        if playing:
+            self.player.play(auto=False)
+        else:
+            self.player.stop()
 
     def handle_tempo_change(self, tempo):
-        print(f'tempo: {tempo}')
+        print(f'ableton -> tempo: {tempo}')
+        tempo = round(tempo, 2)
+        self.player.set_bpm(tempo)
 
-    async def aa_link(self):
-        await self.link.start()
+    link_armed = False
+    async def aa_link(self, player):
+        if self.link_armed == True: return
+        self.link_armed = True
 
-    def set_bpm(self, bpm):
-        self.bpm = bpm
-        self.link.set_bpm(bpm)
+        link = Link(0, asyncio.get_running_loop())
 
-    def stop(self):
-        self.link.stop()
+        link.start_stop_sync_enabled = True
+        link.playing = False
+        await asyncio.sleep(1)
+        link.set_tempo_callback(self.handle_tempo_change)
+        link.set_start_stop_callback(self.start_stop_callback)
+        link.enabled = True
+        try:
+            print ('Ableton Connected')
+            while True:
+                await link.sync(1)
+                self.link_armed = link.num_peers > 0
+                if player.is_playing:
+                    print(f'sync.. beat {link.beat} | phase {link.phase} | time {link.time} | num_peers {link.num_peers}')
+                    player.next_beat()
+                    if not self.link_armed:
+                        player.stop()
+
+        except (ConnectionError, asyncio.CancelledError):
+            print("Ableton disconnected")

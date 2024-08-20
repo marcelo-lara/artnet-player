@@ -3,8 +3,8 @@ from operator import is_
 import os
 from flask import Flask, render_template
 from flask_socketio import SocketIO
-from aalink import Link
 from threading import Thread
+from lib.ableton import Ableton
 from lib.chaser.chaser import Chaser
 from lib.fixtures import channel, setup_artnet_fixtures, create_fixture, Channel, ArtNetNodeInstance
 from lib.fixtures.artNetNodeInstance import dispatch_artnet_packet
@@ -103,49 +103,12 @@ def handle_stop():
 def handle_set_bpm(bpm):
     player.set_bpm(bpm)
 
-## Ableton Link callbacks ##############################################################################
-def start_stop_callback(playing):
-    print(f'ableton -> playing: {playing}')
-    if playing:
-        player.play(auto=False)
-    else:
-        player.stop()
-
-def handle_tempo_change(tempo):
-    print(f'ableton -> tempo: {tempo}')
-    player.set_bpm(round(tempo))
-    socketio.emit('bpm', player.bpm)
-
-
-link_armed = False
-async def aa_link():
-    global link_armed
-    if link_armed == True: return
-    link_armed = True
-
-    loop = asyncio.get_running_loop()
-
-    link = Link(0, loop)
-    link.start_stop_sync_enabled = True
-    link.playing = False
-    await asyncio.sleep(1)
-    link.set_tempo_callback(handle_tempo_change)
-    link.set_start_stop_callback(start_stop_callback)
-    link.enabled = True
-
-    while True:
-        await link.sync(1)
-        if player.is_playing:
-            print(f'sync.. beat {link.beat} | phase {link.phase} | time {link.time} | quantum {link.quantum}')
-            player.next_beat()
-
-def run_aa_link():
-    asyncio.run(aa_link())
-
+## Ableton Link ##############################################################################
+ableton = Ableton(player)
 @socketio.on('connect')
 def handle_connect():
     print('Client connected')
-    t = Thread(target=run_aa_link)
+    t = Thread(target=asyncio.run(ableton.aa_link(player)))
     t.start()
 
 ## Main loop ##############################################################################

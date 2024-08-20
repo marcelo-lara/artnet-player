@@ -16,9 +16,10 @@ class Player:
         self.start_time = 0
         self.play_time = 0
     
-    def set_bpm(self, bpm):
+    def set_bpm(self, bpm: float):
         self.bpm = bpm
         self.fps = bpm / 60
+        self.socketio.emit('bpm', bpm)
         print(f'player BPM set to {bpm} -> {self.fps} FPS')
 
     @property
